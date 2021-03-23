@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		아이디와 비밀번호를 입력해서 Test_01.html 파일로 전송해보자.
+		==> Test11_01.html 파일을 서버에게 요청을 할 때
+			아이디와 비밀번호를 같이 전달하면서 요청하는 것이 된다.
+	-->
+	<form method="GET"action="Test11_01.html" style="text-align: center;">
+		<div style="display: inline-block;width: 220px; text-align: left">
+			<label for="id" style="width:100px; height: 30px; display: inline-block; text-align: right;"> I D :</label>
+			<input type="text" name="id" style="height:200px; height:30px; margin-left: 10px;">"></label>
+		
+		
+		</div><br>
+		<div style="display: inline-block; width: 320px; text-align: left">
+			<label for="pw" style="width:100px; height: 30px; display: inline-block; text-align: right;"> P W :</label>
+			<input type="password" name="pw" style="width:30px; height:30px; margin-left: 10px;"></label>
+		</div>
+		<div style="display: inline-block; width: 320px; text-align: center;">
+		<input type="submit" style ="width: 150px; height: 30px;">
+		<!-- 
+			type="submit"
+			==> 버튼 중 제출하는 기능의 버튼...
+				감싸고 있는 form 태그에 정의된 action 속성 값으로이동한다.
+		 -->
+		</div>
+		
+	</form>
+</body>
+</html>

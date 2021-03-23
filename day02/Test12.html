@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="get"action"Test11_01.html">
+		<input type="radio" name="gen" value="M"><label>남자</label>
+		<input type="radio" name="gen" value="F"><label>여자</label>
+		<select name="sub">
+		<!-- 
+			셀렉트 박스를 사용해서 데이터를 선택해서 전송하는 입력태그
+			주의 ]
+				option태그의 전송되는 데이터는  value 속성값이 전송된다.
+		 -->
+			<option value="자바">java</option>
+			<option value="데이터베이스">db</option>
+			<option value="웹">web</option>
+			<option value="제이에스피">jsp</option>
+			<option value="스프링">spring</option>
+		</select>
+		
+		<input type="checkbox" name="subj" value="java"><label>자바</label><br>
+		<input type="checkbox" name="subj" value="oracle"><label>오라클</label><br>
+		<input type="checkbox" name="subj" value="web"><label>웹</label><br>
+		<input type="checkbox" name="subj" value="jsp"><label>제이에스피</label><br>
+		<input type="checkbox" name="subj" value="spring"><label>스프링</label><br>
+		
+		<input type="submit">
+	</form>
+</body>
+</html>
